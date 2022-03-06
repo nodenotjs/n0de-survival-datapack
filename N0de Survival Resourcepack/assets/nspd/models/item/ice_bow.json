@@ -1,0 +1,6 @@
+{
+  "parent": "item/bow",
+  "textures": {
+      "layer0": "nspd:item/ice_bow"
+  }
+}

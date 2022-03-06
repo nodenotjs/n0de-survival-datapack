@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/jigsaw",
+  
+  "overrides": [
+    {"predicate":{"custom_model_data":491001},"model":"nspd:item/cactus_torn"}
+  ]
+}
