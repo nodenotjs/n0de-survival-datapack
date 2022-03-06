@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block"
+      }
+    },
+    "rewards": {
+      "function": "nspd:tests/ad"
+    }
+  }
+  

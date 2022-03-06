@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Cactus Sword",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{nspd:{id:2},CustomModelData:491001}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

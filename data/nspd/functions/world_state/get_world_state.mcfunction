@@ -1,0 +1,1 @@
+execute store result score %difficulty nspd.world_state run difficulty

@@ -1,0 +1,1 @@
+function nspd:data_handler/entity/get

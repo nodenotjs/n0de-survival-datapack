@@ -1,0 +1,2 @@
+execute align xyz positioned ~.5 ~.5 ~.5 run summon marker ~ ~ ~ {Tags:["nspd","nspd.custom_crafter","nspd.init"]}
+execute as @e[type=marker,tag=nspd.init,sort=nearest,limit=1] run function nspd:custom_crafter/summon/init

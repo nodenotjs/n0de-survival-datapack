@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "nspd.uid": {
+        "min": {
+          "type": "minecraft:constant",
+          "value": -9223372036854776000
+        }
+      }
+    }
+  }
+  

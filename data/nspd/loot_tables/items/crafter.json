@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Crafter",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{nspd:{id:3},EntityTag:{id:\"minecraft:marker\",Tags:[\"nspd\",\"nspd.custom_crafter\",\"nspd.init\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

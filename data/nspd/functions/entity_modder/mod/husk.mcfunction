@@ -1,0 +1,1 @@
+execute if predicate nspd:random_chance/1-5 unless data entity @s HandItems[0].id run loot replace entity @s weapon.mainhand loot nspd:items/cactus_sword
