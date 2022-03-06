@@ -1,8 +1,3 @@
-  1 - Cactus Torn
-  2 - Cactus Sword
-  3 - Custom Crafter
-  4 - Ice Bow
-
 ITEMS:
 1 - Cactus Torn:
   Craft Material
