@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beetroot",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Pomegranate",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{nspd:{id:6},CustomModelData:491006}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

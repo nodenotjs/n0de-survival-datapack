@@ -1,0 +1,71 @@
+ITEMS:
+1 - Cactus Torn:
+  Craft Material
+  Causes +0.5 of damage
+  Has a 1/20 chance to drop 1 or 2 from a cactus
+
+2 - Cactus Sword: [C]
+  Base Status: Stone Sword
+  Applies Poison III for 1s
+  It's peaky! Have 1/8 chance of applying Poison I for 2s by hurting an entity
+
+3 - Custom Crafter: [P]
+  Put the custom crafter.
+  *MISSING DETAILS*
+
+4 - Ice Bow: [C]
+  The arrow has -20% speed and +50% damage. (remember: speed changes the damage. the final damage is +20%)
+  Transforms normal arrows into Ice Arrows, which cause Slowness III (0:03) and Mining Fatigue III (0:03)
+
+5 - Ice Arrow: [U][P]
+  Apply Slowness III (0:03) and Mining Fatigue III (0:03)
+
+6 - Pomegranate: [W.I.P.]
+  Consumable.
+  It has 1/400 chance to drop from a tree (half the chance of an apple). Chance increases with fortune, still half the chance of an apple.
+  When you eat it, applies Strength I for 20s
+  *missing texture*
+
+7 - Witches Council Sword:
+  Base Item: Iron Sword
+  Durability: 158
+  Has a 2/3 chance to apply a random effect. Effects are:
+    3/8 Slowness I (0:06), 2/8 Poison I (0:08), 2/8 Weakness I (0:05) and 1/8 Instand Damage I (Instand Health I for undead mobs))
+
+8 - Ice Sword:
+  Damage: 8 (8 dps)
+  Attack Speed: 1
+  Durability: 230
+  Applies Slowness II (0:01) and Mining Fatigue IV (0:02) for players or Slowness II (0:02) and Weakness I (0:02) for mobs
+  
+8 - Weaponized Carrot:
+Consumable weapon! Nom nom
+  Damage: 2 (~6 dps)
+  Attack Speed: 3
+
+9 - Magic Beam:
+
+10 - Transcender
+
+
+MODDED VANILLA MOBS:
+Husk:
+  1/5 chance of spawning holding a Cactus Sword
+  
+Stray:
+  1/5 chance of spawning holding a Ice Sword
+  1/20 chance of spawning holding a Ice Bow
+
+
+MECHANICS:
+Zombify: [DPR]
+  If the difficulty is on hard, when you die, you will spawn a zombie at the place of your death. Only works if you are in survival or adventure mode
+
+
+EFFECTS:
+
+
+Meaning of Tags:
+[C]: Craftable
+[P]: Placeholder Object. Only obtainable with commands and may be incomplete or does not work as expected.
+[DPR]: Objects that can be toggled by the datapack rule

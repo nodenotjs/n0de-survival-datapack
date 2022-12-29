@@ -1,0 +1,1 @@
+execute as @a run function nspd:events/player/generate_any

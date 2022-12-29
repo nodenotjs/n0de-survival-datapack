@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{nspd:{id:6}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nspd:custom_foods/on_eat_pomegranate"
+    }
+  }
+  

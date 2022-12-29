@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed"
+    }
+  },
+  "rewards": {
+    "function": "nspd:events/player/on_item_durability_changed"
+  }
+}

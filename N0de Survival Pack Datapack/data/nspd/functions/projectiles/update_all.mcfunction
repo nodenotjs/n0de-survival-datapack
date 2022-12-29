@@ -1,0 +1,2 @@
+execute as @e[type=arrow,tag=nspd.p.ice_arrow] at @s run function nspd:projectiles/ice_arrow/update
+execute as @e[type=marker,tag=nspd.p.magic_beam] at @s run function nspd:projectiles/magic_beam/update

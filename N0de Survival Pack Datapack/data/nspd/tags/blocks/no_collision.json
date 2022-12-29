@@ -1,0 +1,14 @@
+{
+    "values": [
+        "#nspd:airs",
+        "snow",
+        "grass",
+        "vine",
+        "#cave_vines",
+        "water",
+        "lava",
+        "structure_void",
+        "light",
+        "ladder"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Magic Beam",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{nspd:{id:9},CustomModelData:491009}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

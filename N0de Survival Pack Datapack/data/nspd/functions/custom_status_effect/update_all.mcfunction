@@ -1,0 +1,1 @@
+execute as @e at @s run function nspd:custom_status_effect/handle_any

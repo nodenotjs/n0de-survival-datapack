@@ -1,0 +1,31 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:nspd.temp"
+      },
+      "ops": [
+        {
+          "source": "SelectedItem.tag.nspd.CustomDurability",
+          "target": "nspd.CustomDurability",
+          "op": "merge"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:nspd.temp"
+      },
+      "ops": [
+        {
+          "source": "SelectedItem.tag.Damage",
+          "target": "Damage",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

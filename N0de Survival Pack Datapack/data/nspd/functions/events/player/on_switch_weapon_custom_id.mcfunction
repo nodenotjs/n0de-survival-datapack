@@ -1,0 +1,2 @@
+execute if score #new_item_id nspd.old_custom_id matches 2 run function nspd:events/player/on_switch_weapon_custom_id/cactus_hold_damage
+execute if score #new_item_id nspd.old_custom_id matches 666 run kill @s

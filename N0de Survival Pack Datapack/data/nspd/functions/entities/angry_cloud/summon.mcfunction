@@ -1,0 +1,2 @@
+summon giant ~ 160 ~ {ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:0b},{Id:12,Duration:2147483647,ShowParticles:0b}],Invulnerable:1b,NoAI:1b,HandItems:[{id:"glass",Count:1b,tag:{CustomModelData:491001}}],PersistenceRequired:1b,Tags:["nspd","nspd.mod","nspd.e.angry_cloud","nspd.init"]}
+execute as @e[type=giant,tag=nspd.init,limit=1,sort=nearest] run function nspd:entities/angry_cloud/summon/init

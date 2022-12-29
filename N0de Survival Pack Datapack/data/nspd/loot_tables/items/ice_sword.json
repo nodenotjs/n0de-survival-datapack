@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Ice Sword",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{nspd:{id:8,CustomDurability:{Max:230}},CustomModelData:491008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;2143572187,1150699149,-1349027379,405446843],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-1654669143,-18528151,-1577573826,-255854946],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

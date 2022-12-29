@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "nspd:item/witches_council_sword"
+    }
+  }

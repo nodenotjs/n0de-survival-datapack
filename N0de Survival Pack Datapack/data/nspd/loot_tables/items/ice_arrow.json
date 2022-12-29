@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Ice Arrow",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{nspd:{id:5},CustomPotionEffects:[{Id:2b,Amplifier:2b,Duration:60},{Id:4b,Amplifier:2b,Duration:60}],CustomPotionColor:16777215}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

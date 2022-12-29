@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Weaponized Carrot",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{nspd:{id:9},CustomModelData:491009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-1185693892,1707164505,-1806067707,1087000451],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1,Operation:0,UUID:[I;1929783551,-30259399,-1776633017,-291250306],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

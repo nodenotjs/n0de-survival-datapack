@@ -1,0 +1,41 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:nspd.temp"
+      },
+      "ops": [
+        {
+          "source": "ItemData.tag.nspd.Lore",
+          "target": "display.Lore",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "Shocked I",
+          "color": "light_purple",
+          "italic": false
+        }
+      ],
+      "replace": false,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{nspd:{Enchantments:{shocked:1}}}"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

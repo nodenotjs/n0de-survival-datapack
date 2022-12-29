@@ -1,0 +1,1 @@
+execute if score #thread.running nspd.temp matches 1 at @s anchored eyes positioned ^ ^ ^ run function nspd:entities/angry_cloud/try_strike/check_sky
